@@ -6,14 +6,25 @@ font-size: 25px;
 }
 }
 
+@media screen and (max-width: 420px) {
+.row {
+float: none;
+}
+}
+
+/* @media screen and (max-width: 420px) {
+.clear {
+clear: none;
+}
+} */
+
 
 /* Orientation */
-@media only screen and (orientation: landscape) {
+/* @media only screen and (orientation: landscape) {
   body {
     background-color: lightblue;
   }
-}
-
+} */
 
 
 
