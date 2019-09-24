@@ -2,8 +2,12 @@
 @media screen and (max-width: 420px) {
 
   body {
-    font-size:30px; 
+    /* font-size:30px; */
+    background-color: lightgrey;
   }
+
+  h1 {color: blue;}
+  h3 {color: red;}
 
 }
 
@@ -34,6 +38,7 @@ clear: none;
   width: 50%;
   float: left;
 }
+
 /* MQ420:  */
 @media screen and (max-width: 420px) {
 
@@ -41,8 +46,16 @@ clear: none;
     width: 100%;
     float: none;
   }
+  .right {
+    border-bottom: solid 2px;
+  }
+  .row {
+    width: auto;
+    margin: auto;
+  }
 
 }
+/* fine MQ420:  */
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -78,6 +91,7 @@ clear: none;
   }
 
 }
+/* fine MQ420:  */
 
 /* BLOCCO PERCHE */
 #why {
